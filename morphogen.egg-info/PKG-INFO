@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: morphogen
+Version: 0.1.0
+Summary: Morphogen MCP Server for infrastructure tools
+Requires-Dist: mcp
+Requires-Dist: httpx>=0.24.0
+Requires-Dist: pydantic>=2.0.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: mypy>=1.0.0; extra == "dev"
